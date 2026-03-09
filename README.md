@@ -1,3 +1,5 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RFahimi/Group_Research/blob/main/Dataset.ipynb)
+
 # Group Research – Health System Resilience in FCAS
 
 This repository contains the code and data used in our group research project on health system resilience in fragile and conflict-affected settings (FCAS).
@@ -9,8 +11,8 @@ The repository includes the code used to construct a cleaned country–year pane
 ## Repository contents
 
 **Dataset construction code**
-- `dataset.ipynb` / `dataset.py`  
-  Python code developed and executed in **Google Colab** to clean, reshape, and merge the source datasets into a single panel dataset. The code can be opened and edited in Google Colab.
+- `Dataset.ipynb`  
+  Python notebook developed and executed in **Google Colab** to clean, reshape, and merge the source datasets into a single panel dataset. The notebook can be opened and run directly in Google Colab using the button above.
 
 **Source data files used to build the dataset**
 - `Countries.xlsx`  
@@ -37,7 +39,7 @@ The repository includes the code used to construct a cleaned country–year pane
 
 ## How to reproduce the dataset
 
-1. Open the dataset construction notebook in **Google Colab**.
+1. Open the dataset construction notebook in **Google Colab** using the button at the top of this page.
 2. Ensure that the required source data files are available in the working directory.
 3. Run the notebook to clean, reshape, and merge the datasets.
 4. The script will generate the final dataset (`fcas_final_dataset.csv`).
