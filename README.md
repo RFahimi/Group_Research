@@ -1,4 +1,4 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RFahimi/Group_Research/blob/main/Dataset.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/RFahimi/Group_Research/blob/main/code/Dataset.ipynb)
 
 # Group Research – Health System Resilience in FCAS
 
@@ -11,26 +11,26 @@ The repository includes the code used to construct a cleaned country–year pane
 ## Repository contents
 
 **Dataset construction code**
-- `Dataset.ipynb`  
+- `code/Dataset.ipynb`  
   Python notebook developed and executed in **Google Colab** to clean, reshape, and merge the source datasets into a single panel dataset. The notebook can be opened and run directly in Google Colab using the button above.
 
 **Source data files used to build the dataset**
-- `Countries.xlsx`  
+- `data/Countries.xlsx`  
   List of countries included in the study sample prepared by AbdulAziz.
 
-- `GDP and health expenditure for FCSL_data.csv`  
+- `data/GDP and health expenditure for FCSL_data.csv`  
   GDP per capita and health expenditure indicators prepared by AbdulAziz.
 
-- `GNI for FCSL_data.csv`  
+- `data/GNI for FCSL_data.csv`  
   GNI per capita data prepared by AbdulAziz.
 
-- `life_expectancy_all_countries.csv`  
+- `data/life_expectancy_all_countries.csv`  
   Life expectancy data prepared by Habeeb.
 
-- `MD per 10000.csv`  
+- `data/MD per 10000.csv`  
   Physicians per 10,000 population dataset prepared by Reza.
 
-- `Nursing and midwifery per 10000.csv`  
+- `data/Nursing and midwifery per 10000.csv`  
   Nurses and midwives per 10,000 population dataset prepared by Reza.
 
 **Final dataset**
@@ -48,4 +48,4 @@ The variables included in this project were compiled from publicly available int
 4. The script will generate the final dataset (`fcas_final_dataset.csv`).
 
 ## Project team
-Elites of the University of Warwick.
+Group research project, University of Warwick.
