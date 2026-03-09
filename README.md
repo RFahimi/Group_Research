@@ -36,6 +36,9 @@ The repository includes the code used to construct a cleaned country–year pane
 **Final dataset**
 - `fcas_final_dataset.csv`  
   The cleaned country–year panel dataset produced by running the dataset construction code. This file is the final merged dataset used for analysis.
+## Data sources
+
+The variables included in this project were compiled from publicly available international data sources, including the World Bank and WHO datasets, and were processed into a single cleaned country–year panel dataset for analysis.
 
 ## How to reproduce the dataset
 
